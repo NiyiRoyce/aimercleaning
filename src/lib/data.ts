@@ -94,27 +94,51 @@ export const steps: Step[] = [
 export const testimonials: Testimonial[] = [
   {
     id: "t1",
-    name: "Amara O.",
-    location: "Lekki, Lagos",
+    name: "Sarah M.",
+    location: "Winnipeg, MB",
     rating: 5,
     quote:
-      "AIMER has completely changed how I feel about coming home. Every corner is immaculate and the team is so professional and discreet.",
+      "AIMER has completely changed how I feel about coming home. Every corner is immaculate and the team is professional, punctual, and discreet.",
   },
   {
     id: "t2",
-    name: "Chidi N.",
-    location: "Maitama, Abuja",
+    name: "Daniel K.",
+    location: "Toronto, ON",
     rating: 5,
     quote:
-      "I booked a deep clean before a family event and they exceeded every expectation. The kitchen alone looked brand new. Highly recommend.",
+      "I booked a deep clean before a family event and they exceeded every expectation. The kitchen alone looked brand new. I won't use anyone else.",
   },
   {
     id: "t3",
-    name: "Fatima B.",
-    location: "GRA, Port Harcourt",
+    name: "Priya R.",
+    location: "Vancouver, BC",
     rating: 5,
     quote:
-      "Reliable, thorough, and always on time. I've been using AIMER monthly for six months and the quality never drops. Worth every kobo.",
+      "Reliable, thorough, and always on time. I've been booking AIMER monthly for nearly a year and the quality has never once dropped.",
+  },
+  {
+    id: "t4",
+    name: "James T.",
+    location: "Calgary, AB",
+    rating: 5,
+    quote:
+      "Had them clean our office weekly for three months. The team is efficient and barely noticeable — exactly what you want in a workspace.",
+  },
+  {
+    id: "t5",
+    name: "Michelle L.",
+    location: "Ottawa, ON",
+    rating: 5,
+    quote:
+      "Moving out is stressful enough. AIMER handled the end-of-lease clean and I got my full deposit back. Absolutely worth it.",
+  },
+  {
+    id: "t6",
+    name: "Amir H.",
+    location: "Montreal, QC",
+    rating: 5,
+    quote:
+      "Transparent pricing, no surprises, and a genuinely spotless result every time. Refreshing to work with a company that just does what it promises.",
   },
 ];
 

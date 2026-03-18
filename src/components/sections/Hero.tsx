@@ -40,24 +40,6 @@ export default function Hero() {
                 Explore Services
               </Button>
             </div>
-
-            {/* Inline trust note */}
-            <div className="mt-10 flex items-center gap-3">
-              <div className="flex -space-x-2">
-                {["A", "C", "F"].map((initial) => (
-                  <div
-                    key={initial}
-                    className="w-8 h-8 rounded-full bg-[#0F1F2E] border-2 border-white flex items-center justify-center text-white font-display text-xs"
-                  >
-                    {initial}
-                  </div>
-                ))}
-              </div>
-              <p className="font-body text-sm text-gray-500">
-                <span className="font-semibold text-[#0F1F2E]">500+</span>{" "}
-                happy homes cleaned this year
-              </p>
-            </div>
           </div>
 
           {/* Right: Image */}
@@ -73,19 +55,6 @@ export default function Hero() {
               />
               {/* Subtle gradient overlay */}
               <div className="absolute inset-0 bg-gradient-to-t from-[#0F1F2E]/20 to-transparent" />
-            </div>
-
-            {/* Floating accent card */}
-            <div className="absolute -bottom-6 -left-6 bg-white rounded-2xl shadow-xl shadow-black/10 px-6 py-4 flex items-center gap-4">
-              <div className="w-10 h-10 rounded-xl bg-[#E8F5F0] flex items-center justify-center text-[#38a67e] text-lg">
-                ✦
-              </div>
-              <div>
-                <p className="font-body text-xs text-gray-400">Average Rating</p>
-                <p className="font-display text-xl font-semibold text-[#0F1F2E]">
-                  4.9 / 5.0
-                </p>
-              </div>
             </div>
           </div>
         </div>

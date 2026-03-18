@@ -71,9 +71,7 @@ export default function Contact() {
                            transition-all duration-300 ease-out
                            hover:-translate-y-1 hover:shadow-xl hover:shadow-[#0F1F2E]/20 cursor-default"
               >
-                {/* Subtle glow on hover */}
                 <div aria-hidden className="absolute -bottom-6 -right-6 w-20 h-20 rounded-full bg-[#38a67e]/0 blur-xl transition-colors duration-300 group-hover:bg-[#38a67e]/20" />
-
                 <div
                   className="relative z-10 flex-shrink-0 w-11 h-11 rounded-xl bg-white/8 border border-white/10
                              flex items-center justify-center text-[#38a67e]
@@ -168,10 +166,38 @@ export default function Contact() {
                       className={inputClass}
                     >
                       <option value="" disabled>Select a service...</option>
-                      <option value="sofa-carpet">Sofa & Carpet Refresh</option>
-                      <option value="deep-clean">Complete Deep Home Cleaning</option>
-                      <option value="office">Professional Office Cleaning</option>
-                      <option value="bathroom-kitchen">Bathroom & Kitchen Shine</option>
+
+                      {/* Residential */}
+                      <optgroup label="Residential Cleaning">
+                        <option value="standard-home">Standard Home Clean</option>
+                        <option value="deep-clean">Complete Deep Home Cleaning</option>
+                        <option value="move-in">Move-In Cleaning</option>
+                        <option value="move-out">Move-Out / End-of-Lease Clean</option>
+                        <option value="post-renovation">Post-Renovation Clean</option>
+                        <option value="sofa-carpet">Sofa & Carpet Refresh</option>
+                        <option value="bathroom-kitchen">Bathroom & Kitchen Shine</option>
+                        <option value="windows">Window & Glass Cleaning</option>
+                      </optgroup>
+
+                      {/* Commercial */}
+                      <optgroup label="Commercial Cleaning">
+                        <option value="office">Professional Office Cleaning</option>
+                        <option value="retail">Retail & Storefront Cleaning</option>
+                        <option value="commercial-deep">Commercial Deep Clean</option>
+                        <option value="post-event">Post-Event Cleanup</option>
+                      </optgroup>
+
+                      {/* Recurring */}
+                      <optgroup label="Recurring Plans">
+                        <option value="weekly">Weekly Cleaning Plan</option>
+                        <option value="biweekly">Bi-Weekly Cleaning Plan</option>
+                        <option value="monthly">Monthly Cleaning Plan</option>
+                      </optgroup>
+
+                      {/* Other */}
+                      <optgroup label="Other">
+                        <option value="custom">Custom / Not Listed</option>
+                      </optgroup>
                     </select>
                   </div>
 
