@@ -14,6 +14,7 @@ export default function Contact() {
   const [form, setForm] = useState({
     name: "",
     email: "",
+    phone: "",
     service: "",
     message: "",
   });
@@ -148,6 +149,20 @@ export default function Contact() {
                         value={form.email}
                         onChange={handleChange}
                         placeholder="sarah@email.com"
+                        className={inputClass}
+                      />
+                    </div>
+                    <div className="group/field sm:col-span-2">
+                      <label className="font-body text-xs font-semibold text-gray-400 uppercase tracking-widest mb-2 block
+                                        transition-colors duration-200 group-focus-within/field:text-[#38a67e]">
+                        Phone Number
+                      </label>
+                      <input
+                        type="tel"
+                        name="phone"
+                        value={form.phone}
+                        onChange={handleChange}
+                        placeholder="+1 234 567 8900"
                         className={inputClass}
                       />
                     </div>
