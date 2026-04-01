@@ -80,14 +80,14 @@ export default function WhyUs() {
                   We Stand Behind Every Clean
                 </h4>
                 <p className="font-body text-sm text-gray-500 leading-relaxed">
-                  If it&apos;s not right, we come back and make it right —
-                  no haggling, no extra charges, no excuses.
+                  If it&apos;s not right, we will come back and make it right, no haggling, 
+                  no extra charges, no excuses. Your Joy, Our Growth.
                 </p>
               </div>
             </div>
 
             <Button href="#contact" variant="outline" className="self-start">
-              Book a Cleaner →
+              Request a Quote →
             </Button>
           </div>
 

@@ -50,13 +50,10 @@ export default function Contact() {
         <div className="text-center mb-14">
           <SectionLabel className="mb-4 justify-center">Contact Us</SectionLabel>
           <h2 className="font-display text-4xl lg:text-5xl font-semibold text-[#0F1F2E] leading-tight">
-            Let&apos;s Get Your
-            <br />
-            <em className="font-light not-italic text-[#38a67e]">Space Spotless.</em>
+            Request a Quote
           </h2>
           <p className="font-body text-sm text-gray-500 mt-4 max-w-sm mx-auto leading-relaxed">
-            Reach out and we&apos;ll confirm your booking within a few hours.
-            Clean, simple, done.
+            Expert service tailored to your timeline.
           </p>
         </div>
 
@@ -113,7 +110,7 @@ export default function Contact() {
               <>
                 <div className="mb-7">
                   <h3 className="font-display text-2xl font-semibold text-[#0F1F2E] mb-1">
-                    Book Your Clean
+                    Request a Quote
                   </h3>
                   <p className="font-body text-sm text-gray-400">
                     Takes less than two minutes. We&apos;ll handle the rest.

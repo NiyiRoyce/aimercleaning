@@ -57,7 +57,7 @@ export default function CTABanner() {
                 variant="primary"
                 className="bg-[#38a67e] hover:bg-[#2d9470] shadow-lg shadow-[#38a67e]/25 w-full lg:w-auto"
               >
-                Book a Cleaner →
+                Request a Quote →
               </Button>
 
               {/* Outline — white border, fills green on hover (always readable on navy bg) */}

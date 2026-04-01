@@ -34,7 +34,7 @@ export default function Hero() {
 
             <div className="flex flex-col sm:flex-row gap-4 items-start">
               <Button href="#contact" variant="primary">
-                Book a Cleaner →
+                Request a Quote →
               </Button>
               <Button href="#services" variant="outline">
                 Explore Services

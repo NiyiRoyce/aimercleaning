@@ -84,10 +84,7 @@ export default function About() {
               space as if it were their own.
             </p>
             <p className="font-body text-sm text-gray-600 leading-relaxed mb-8">
-              From humble beginnings serving a handful of families, we&apos;ve
-              grown to serve hundreds of homes and offices across Nigeria —
-              delivering consistent, care-driven, eco-friendly cleaning that
-              makes a real difference.
+              Professional commercial to post-construction cleaning across Canada, trusted staff and guaranteed results.
             </p>
 
             <div>

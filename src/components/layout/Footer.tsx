@@ -66,7 +66,7 @@ export default function Footer() {
                        hover:-translate-y-0.5 hover:shadow-xl hover:shadow-[#38a67e]/35
                        active:scale-[0.97]"
           >
-            <span className="relative z-10">Book a Cleaner →</span>
+            <span className="relative z-10">Request a Quote →</span>
             <span
               aria-hidden
               className="absolute inset-0 bg-gradient-to-r from-transparent via-white/10 to-transparent

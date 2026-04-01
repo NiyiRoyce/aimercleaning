@@ -4,15 +4,15 @@ import type { Service, Feature, Step, Testimonial, Stat } from "@/types";
 export const services: Service[] = [
   {
     id: "sofa-carpet",
-    title: "Sofa & Carpet Refresh",
+    title: "Deep Commercial Cleaning",
     description:
-      "Deep extraction cleaning that lifts stains, allergens, and odors from your sofas and carpets — leaving them fresh and revitalized.",
+      "Professional deep cleaning for commercial spaces.",
     image: images.services.sofa,
-    alt: "Sofa and carpet cleaning service",
+    alt: "Deep commercial cleaning service",
   },
   {
     id: "deep-clean",
-    title: "Complete Deep Home Cleaning",
+    title: "Deep Home Cleaning",
     description:
       "A thorough top-to-bottom clean of every room, surface, and corner. Perfect for move-ins, move-outs, or a seasonal reset.",
     image: images.services.deepClean,
@@ -28,11 +28,11 @@ export const services: Service[] = [
   },
   {
     id: "bathroom-kitchen",
-    title: "Bathroom & Kitchen Shine",
+    title: "Post-Construction Cleaning",
     description:
-      "Intensive sanitization of your most-used spaces. We remove limescale, grease, and bacteria for a hygienically spotless result.",
+      "Construction debris, dust, and detail cleaning for newly built or renovated spaces.",
     image: images.services.bathroom,
-    alt: "Bathroom and kitchen cleaning service",
+    alt: "Post-construction cleaning service",
   },
 ];
 
@@ -40,21 +40,21 @@ export const features: Feature[] = [
   {
     id: "verified",
     icon: "✦",
-    title: "Verified Professionals",
+    title: "Background Checked",
     description:
       "Every cleaner is background-checked, trained, and insured before they step into your home.",
   },
   {
     id: "eco",
     icon: "◈",
-    title: "Eco-Friendly Products",
+    title: "Eco Friendly",
     description:
       "We use only non-toxic, biodegradable products that are safe for children, pets, and the planet.",
   },
   {
     id: "ontime",
     icon: "◎",
-    title: "On-Time Guarantee",
+    title: "On Time Guarantee",
     description:
       "We respect your schedule. Our teams arrive on time, every time — or your next clean is on us.",
   },

@@ -95,7 +95,7 @@ export default function Navbar(): React.ReactElement {
         {/* ── Desktop CTA ── */}
         <div className="hidden md:flex">
           <Button href="#contact" variant="primary">
-            Book a Cleaner
+            Request a Quote
           </Button>
         </div>
 
@@ -166,7 +166,7 @@ export default function Navbar(): React.ReactElement {
                 variant="primary"
                 className="w-full justify-center"
               >
-                Book a Cleaner
+                Request a Quote
               </Button>
             </div>
           </nav>

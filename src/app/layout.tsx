@@ -21,6 +21,9 @@ export const metadata: Metadata = {
   description:
     "Premium home and office cleaning services. Verified professionals, eco-friendly products, and a spotless result guaranteed.",
   keywords: ["cleaning service", "home cleaning", "office cleaning", "professional cleaners"],
+  icons: {
+    icon: "/favicon.svg",
+  },
 };
 
 export default function RootLayout({
