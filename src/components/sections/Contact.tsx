@@ -50,10 +50,10 @@ export default function Contact() {
         <div className="text-center mb-14">
           <SectionLabel className="mb-4 justify-center">Contact Us</SectionLabel>
           <h2 className="font-display text-4xl lg:text-5xl font-semibold text-[#0F1F2E] leading-tight">
-            Request a Quote
+            Let’s Get Your Space Ready
           </h2>
           <p className="font-body text-sm text-gray-500 mt-4 max-w-sm mx-auto leading-relaxed">
-            Expert service tailored to your timeline.
+            Send us your project details and receive a professional service plan within 24 hours.
           </p>
         </div>
 
@@ -113,7 +113,7 @@ export default function Contact() {
                     Request a Quote
                   </h3>
                   <p className="font-body text-sm text-gray-400">
-                    Takes less than two minutes. We&apos;ll handle the rest.
+                    Expert service tailored to your timeline
                   </p>
                 </div>
 
