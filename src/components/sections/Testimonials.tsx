@@ -49,7 +49,8 @@ export default function Testimonials() {
             </h2>
 
             <p className="font-body text-sm text-white/60 leading-relaxed max-w-xs">
-              We offer clear service agreements and high-standard execution for offices, job sites, and private properties. Get your space ready for business today.
+              We offer clear service agreements and high-standard execution for offices, job sites, and private
+              properties. Get your space ready for business today.
             </p>
 
             {/* Accent rule */}

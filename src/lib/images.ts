@@ -14,12 +14,12 @@ export const images = {
   },
   services: {
     sofa:
-      "https://images.unsplash.com/photo-1558211583-d26f610c1eb1?auto=format&fit=crop&w=1200&q=80",
+      "/images/PHOTO-2026-04-10-20-44-11.jpg",
     deepClean:
       "https://images.unsplash.com/photo-1581578731548-c64695cc6952?auto=format&fit=crop&w=1200&q=80",
     office:
       "https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=1200&q=80",
     bathroom:
-      "https://images.unsplash.com/photo-1552321554-5fefe8c9ef14?auto=format&fit=crop&w=1200&q=80",
+      "/images/PHOTO-2026-04-10-20-55-20.jpg",
   },
 };

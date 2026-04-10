@@ -27,7 +27,9 @@ export default function Hero() {
             </h1>
 
             <p className="font-body text-base text-gray-500 leading-relaxed max-w-md mb-10">
-              Specializing in post-construction cleaning and commercial facility maintenance. We deliver high-standard, move-in ready results for job sites, offices, and residential properties.
+              Specializing in post-construction cleaning and commercial facility maintenance. 
+              We deliver high-standard, move-in ready results for job sites, offices, and residential
+              properties.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 items-start">

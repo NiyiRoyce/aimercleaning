@@ -31,7 +31,8 @@ export default function Services() {
             </h2>
           </div>
           <p className="font-body text-sm text-gray-500 leading-relaxed max-w-sm lg:text-right">
-            From a commercial site to a premium home, AIMER arrives equipped with a systematic, high-standard process. We get the job done right so your space is ready for business, living, or handover.
+            From a commercial site to a premium home, AIMER arrives equipped with a systematic,
+            high-standard process. We get the job done right so your space is ready for business, living, or handover.
           </p>
         </div>
 
