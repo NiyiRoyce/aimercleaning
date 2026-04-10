@@ -27,9 +27,9 @@ export default function Hero() {
             </h1>
 
             <p className="font-body text-base text-gray-500 leading-relaxed max-w-md mb-10">
-              Professional cleaning you can trust — whether it&apos;s your
-              home, office, or that one messy corner. Eco-friendly products,
-              verified cleaners, guaranteed results.
+              Specializing in post-construction cleaning and commercial facility maintenance. 
+              We deliver high-standard, move-in ready results for job sites, offices, and residential
+              properties.
             </p>
 
             <div className="flex flex-col sm:flex-row gap-4 items-start">

@@ -166,11 +166,12 @@ export default function Contact() {
                   </div>
 
                   <div className="group/field">
-                    <label className="font-body text-xs font-semibold text-gray-400 uppercase tracking-widest mb-2 block
+                    <label htmlFor="service" className="block text-sm font-semibold relative text-gray-700
                                       transition-colors duration-200 group-focus-within/field:text-[#38a67e]">
                       Service Needed
                     </label>
                     <select
+                      id="service"
                       name="service"
                       required
                       value={form.service}
@@ -186,16 +187,16 @@ export default function Contact() {
                         <option value="move-in">Move-In Cleaning</option>
                         <option value="move-out">Move-Out / End-of-Lease Clean</option>
                         <option value="post-renovation">Post-Renovation Clean</option>
-                        <option value="sofa-carpet">Sofa & Carpet Refresh</option>
-                        <option value="bathroom-kitchen">Bathroom & Kitchen Shine</option>
-                        <option value="windows">Window & Glass Cleaning</option>
+                        {/* <option value="sofa-carpet">Sofa & Carpet Refresh</option> */}
+                        {/* <option value="bathroom-kitchen">Bathroom & Kitchen Shine</option> */}
+                        {/* <option value="windows">Window & Glass Cleaning</option> */}
                       </optgroup>
 
                       {/* Commercial */}
                       <optgroup label="Commercial Cleaning">
                         <option value="office">Professional Office Cleaning</option>
                         <option value="retail">Retail & Storefront Cleaning</option>
-                        <option value="commercial-deep">Commercial Deep Clean</option>
+                        <option value="commercial-deep">Post-construction Cleaning</option>
                         <option value="post-event">Post-Event Cleanup</option>
                       </optgroup>
 

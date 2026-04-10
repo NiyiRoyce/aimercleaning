@@ -31,9 +31,8 @@ export default function Services() {
             </h2>
           </div>
           <p className="font-body text-sm text-gray-500 leading-relaxed max-w-sm lg:text-right">
-            Whether it&apos;s a studio apartment or a full office floor,
-            AIMER shows up equipped, efficient, and detail-obsessed —
-            so you never have to think twice.
+            From a commercial site to a premium home, AIMER arrives equipped with a systematic,
+            high-standard process. We get the job done right so your space is ready for business, living, or handover.
           </p>
         </div>
 

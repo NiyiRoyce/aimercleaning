@@ -49,8 +49,8 @@ export default function Testimonials() {
             </h2>
 
             <p className="font-body text-sm text-white/60 leading-relaxed max-w-xs">
-              Real clients across Canada trust AIMER to show up, do the work,
-              and leave every space better than they found it.
+              We offer clear service agreements and high-standard execution for offices, job sites, and private
+              properties. Get your space ready for business today.
             </p>
 
             {/* Accent rule */}

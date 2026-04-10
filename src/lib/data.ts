@@ -85,60 +85,60 @@ export const steps: Step[] = [
   {
     id: "relax",
     number: "03",
-    title: "You Relax",
+    title: "Verified Results",
     description:
-      "Come home to a spotless, fresh-smelling space. No effort from you — just the pleasure of a clean home.",
+      "Your property is delivered to our highest cleaning standards. From post-construction detailing to professional home care, we ensure every requirement is met before we leave.",
   },
 ];
 
 export const testimonials: Testimonial[] = [
   {
     id: "t1",
-    name: "Sarah M.",
-    location: "Winnipeg, MB",
+    name: "Hillbrook",
+    location: "",
     rating: 5,
     quote:
-      "AIMER has completely changed how I feel about coming home. Every corner is immaculate and the team is professional, punctual, and discreet.",
+      "Thank you so much to your team for this amazing clean at our property!! We are excited to continue our relationship for future move out cleans",
   },
   {
     id: "t2",
-    name: "Daniel K.",
-    location: "Toronto, ON",
+    name: "Proud Trucking Office",
+    location: "",
     rating: 5,
     quote:
-      "I booked a deep clean before a family event and they exceeded every expectation. The kitchen alone looked brand new. I won't use anyone else.",
+      "Reliable cleaners, great attention to detail, office always fresh and tidy. Very satisfied!",
   },
   {
     id: "t3",
-    name: "Priya R.",
-    location: "Vancouver, BC",
+    name: "Skyler",
+    location: "",
     rating: 5,
     quote:
-      "Reliable, thorough, and always on time. I've been booking AIMER monthly for nearly a year and the quality has never once dropped.",
+      "We are very satisfied with your cleaning at the units in Lorette, fantastic job. Thank you for working and getting those cleaned up so well!"
   },
   {
     id: "t4",
-    name: "James T.",
-    location: "Calgary, AB",
+    name: "Kelly",
+    location: "",
     rating: 5,
     quote:
-      "Had them clean our office weekly for three months. The team is efficient and barely noticeable — exactly what you want in a workspace.",
+      "Great clean for a good price. I would definitely book again.",
   },
   {
     id: "t5",
-    name: "Michelle L.",
-    location: "Ottawa, ON",
+    name: "Elena Campos",
+    location: "",
     rating: 5,
     quote:
-      "Moving out is stressful enough. AIMER handled the end-of-lease clean and I got my full deposit back. Absolutely worth it.",
+      "Nice and friendly staff. We had junk in our basement and needed help cleaning it out and they did an amazing job",
   },
   {
     id: "t6",
-    name: "Amir H.",
-    location: "Montreal, QC",
+    name: "Mackinley Towns",
+    location: "",
     rating: 5,
     quote:
-      "Transparent pricing, no surprises, and a genuinely spotless result every time. Refreshing to work with a company that just does what it promises.",
+      "I took a look around the unit this morning, and everything looks satisfactory.",
   },
 ];
 
