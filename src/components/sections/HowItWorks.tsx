@@ -22,10 +22,10 @@ export default function HowItWorks() {
         <div className="text-center mb-16">
           <SectionLabel className="mb-4 justify-center">How It Works</SectionLabel>
           <h2 className="font-display text-4xl lg:text-5xl font-semibold text-[#0F1F2E] leading-tight">
-            From Booking to
+            Professional Results
             <br />
             <em className="not-italic font-light text-[#38a67e]">
-              Spotless — In Three Steps.
+              — In Three Steps.
             </em>
           </h2>
           <p className="font-body text-sm text-gray-500 mt-5 max-w-md mx-auto leading-relaxed">

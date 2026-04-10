@@ -85,9 +85,8 @@ export const steps: Step[] = [
   {
     id: "relax",
     number: "03",
-    title: "You Relax",
-    description:
-      "Come home to a spotless, fresh-smelling space. No effort from you — just the pleasure of a clean home.",
+    title: "Verified Results",
+    description: `Your property is delivered to our highest cleaning standards. From post-construction detailing to professional home care, we ensure every requirement is met before we leave.`,
   },
 ];
 

@@ -78,13 +78,7 @@ export default function About() {
             <div className="w-12 h-0.5 bg-[#38a67e] rounded-full mb-7" />
 
             <p className="font-body text-sm text-gray-600 leading-relaxed mb-4">
-              AIMER started with a simple belief: a clean home is a foundation
-              for a better life. We built our company around that idea —
-              assembling a team of dedicated professionals who treat every
-              space as if it were their own.
-            </p>
-            <p className="font-body text-sm text-gray-600 leading-relaxed mb-8">
-              Professional commercial to post-construction cleaning across Canada, trusted staff and guaranteed results.
+              At AIMER, we understand that a clean space is a functional space. Our company specializes in bridging the gap between a completed construction project and a successful handover. Now serving diverse industries throughout Canada, we provide the specialized labor and oversight required for post-construction detailing and commercial maintenance. We bring the same industrial-strength standards to our residential clients, ensuring a superior level of service for every space.
             </p>
 
             <div>
