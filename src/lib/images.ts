@@ -22,4 +22,13 @@ export const images = {
     bathroom:
       "/images/PHOTO-2026-04-10-20-55-20.jpg",
   },
+  partner: {
+    main: "/images/PHOTO-2026-04-10-22-49-20.jpg",
+    alt: "partner logo collage",
+  },
+
+  membership: {
+    main: "/images/binders.jpeg",
+    alt: "membership logo collage",
+  },
 };
