@@ -146,7 +146,7 @@ export default function Footer() {
             <span className="w-1.5 h-1.5 rounded-full bg-[#38a67e]/60" />
             <div className="flex items-center gap-2.5 bg-white/[0.04] border border-white/10 rounded-lg px-4 py-2">
               <p className="font-body text-[#7a9aaa] text-[11px] tracking-widest uppercase">
-                In Partnership with
+                Servicing with
               </p>
               <span className="w-px h-3.5 bg-white/15"></span>
                 <div className="relative h-8 w-32">
