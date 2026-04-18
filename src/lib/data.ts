@@ -147,7 +147,7 @@ export const testimonials: Testimonial[] = [
     location: "",
     rating: 5,
     quote:
-      "Hired Aimer Cleaning for a move out cleaning. They did a spectacular jon. I'll definitely be hiring them again.",
+      "Hired Aimer Cleaning for a move out cleaning. They did a spectacular jon. I will definitely be hiring them again.",
   },
 ];
 
