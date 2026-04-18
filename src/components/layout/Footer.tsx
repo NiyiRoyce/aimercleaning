@@ -1,10 +1,12 @@
 import Link from "next/link";
+import Image from "next/image";
+import { images } from "@/lib/images";
 
 const footerLinks = {
   Services: [
+    { label: "Post-construction", href: "#services" },
     { label: "Residential", href: "#services" },
     { label: "Commercial", href: "#services" },
-    { label: "Deep Cleaning", href: "#services" },
     { label: "Office Cleaning", href: "#services" },
   ],
   "About AIMER": [
@@ -21,10 +23,11 @@ const footerLinks = {
 };
 
 const socials = [
-  { label: "Facebook", href: "#", icon: "f" },
-  { label: "Instagram", href: "#", icon: "in" },
-  { label: "Twitter", href: "#", icon: "x" },
-  { label: "LinkedIn", href: "#", icon: "li" },
+  { label: "Facebook", href: "https://www.facebook.com/aimercleaning/", icon: "f" },
+  { label: "Instagram", href: "https://www.instagram.com/aimercleaning/", icon: "in" },
+  { label: "Twitter", href: "https://x.com/aimercleaning", icon: "x" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/company/aimer-cleaning/", icon: "li" },
+  { label: "YouTube", href: "https://www.youtube.com/@aimercleaning", icon: "yt" },
 ];
 
 export default function Footer() {
@@ -54,8 +57,7 @@ export default function Footer() {
             <span className="w-2 h-2 rounded-full bg-[#38a67e]" />
           </div>
           <p className="font-body text-sm text-white/40 max-w-xs leading-relaxed">
-            Professional cleaning for homes and offices across Canada —
-            verified cleaners, eco-friendly products, guaranteed results.
+            For residential and commercial across Canada, verified cleaners, guaranteed results.
           </p>
           <Link
             href="#contact"
@@ -140,11 +142,25 @@ export default function Footer() {
           <p className="font-body text-xs text-white/25">
             © {new Date().getFullYear()} AIMER Cleaning Services. All rights reserved.
           </p>
-          <div className="flex items-center gap-1.5">
+          <div className="relative flex items-center gap-1.5">
             <span className="w-1.5 h-1.5 rounded-full bg-[#38a67e]/60" />
-            <p className="font-body text-xs text-white/25">
-              Crafted with care for clean spaces.
-            </p>
+            <div className="flex items-center gap-2.5 bg-white/[0.04] border border-white/10 rounded-lg px-4 py-2">
+              <p className="font-body text-[#7a9aaa] text-[11px] tracking-widest uppercase">
+                Servicing with
+              </p>
+              <span className="w-px h-3.5 bg-white/15"></span>
+                <div className="relative h-8 w-32">
+                  <Image 
+                    src={images.partner.main}
+                    alt={images.partner.alt}
+                    fill
+                    priority
+                    className="object-contain"
+                    sizes="(max-width: 1024px) 20vw, 10vw"
+                  />
+                </div>
+            </div>
+            
           </div>
         </div>
 
