@@ -140,6 +140,15 @@ export const testimonials: Testimonial[] = [
     quote:
       "I took a look around the unit this morning, and everything looks satisfactory.",
   },
+
+  {
+    id: "t7",
+    name: "Jeremie",
+    location: "",
+    rating: 5,
+    quote:
+      "Hired Aimer Cleaning for a move out cleaning. They did a spectacular jon. I'll definitely be hiring them again.",
+  },
 ];
 
 export const stats: Stat[] = [

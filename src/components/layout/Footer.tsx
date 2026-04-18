@@ -23,11 +23,11 @@ const footerLinks = {
 };
 
 const socials = [
-  { label: "Facebook", href: "https://www.facebook.com/aimercleaning/", icon: "f" },
-  { label: "Instagram", href: "https://www.instagram.com/aimercleaning/", icon: "in" },
-  { label: "Twitter", href: "https://x.com/aimercleaning", icon: "x" },
-  { label: "LinkedIn", href: "https://www.linkedin.com/company/aimer-cleaning/", icon: "li" },
-  { label: "YouTube", href: "https://www.youtube.com/@aimercleaning", icon: "yt" },
+  { label: "Facebook", href: "https://www.facebook.com/aimercleaning/", icon: "f" , target: "_blank" },
+  { label: "Instagram", href: "https://www.instagram.com/aimercleaning/", icon: "in" , target: "_blank" },
+  { label: "Twitter", href: "https://x.com/aimercleaning", icon: "x" , target: "_blank" },
+  { label: "LinkedIn", href: "https://www.linkedin.com/company/aimer-cleaning/", icon: "li" , target: "_blank" },
+  { label: "YouTube", href: "https://www.youtube.com/@aimercleaning", icon: "yt" , target: "_blank" },
 ];
 
 export default function Footer() {
